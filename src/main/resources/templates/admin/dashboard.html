@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f7c531, #ffaf00); /* Dark yellow gradient */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .dashboard {
+            width: 80%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .welcome {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-size: 20px; /* Increased font size */
+            color: #333;
+            background: #eee;
+            padding: 14px;
+            border-radius: 5px;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-links a:hover {
+            background: #f7c531;
+            color: #fff;
+        }
+
+        .logout-btn {
+            margin-top: 20px;
+            background: #ff4444;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px; /* Increased font size */
+        }
+
+        .logout-btn:hover {
+            background: #cc0000;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <div class="welcome">👋 Welcome Admin</div>
+
+        <div class="nav-links">
+            <a href="readAllBookings">📖 Read All Bookings</a>
+            <a href="readAllContacts">📩 Read All Contacts</a>
+            <a href="readAllServices">🔧 Read All Services</a>
+            <a href="addService">➕ Add Service</a>
+            <a href="changeCredentials">🔑 Change Credentials</a>
+        </div>
+
+        <button class="logout-btn" onclick="location.href='/dologout'">🚪 Logout</button>
+
+        <div class="footer">🚖 "Great journeys begin with small steps!" 🚖</div>
+    </div>
+
+</body>
+</html>
