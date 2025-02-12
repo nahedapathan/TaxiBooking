@@ -1,22 +1,14 @@
 # TaxiBooking
-Here is a well-structured **README.md** file for your **Taxi Booking System** project on GitHub. It includes a project description, features, technologies, setup instructions, and screenshots.  
-
----
-
-### **📌 README.md for Taxi Booking System**  
-
-```markdown
 # 🚖 Taxi Booking System
 
-The **Taxi Booking System** is a web-based application built using **Spring Boot, Hibernate, Thymeleaf, and MySQL**. This project enables users to **book taxis, manage bookings, and access an admin dashboard** for ride and user management. The system incorporates **Spring Security** for authentication and follows the **MVC architecture**.
+The **Taxi Booking System** is a web-based application developed using **Spring Boot, Hibernate, Thymeleaf, and MySQL**. It allows users to **book taxis, manage bookings, and access an admin dashboard** for monitoring ride and user management. The system is secured with **Spring Security** and follows the **MVC architecture**.
 
 ---
 
 ## 📷 Project Screenshots  
 
-### 🔹 User Panel  
 
-
+|-----------|-------------|
 | ![Taxi01](screenshots/taxi01.png) | ![Taxi02](screenshots/taxi02.png) |
 
 
@@ -31,12 +23,27 @@ The **Taxi Booking System** is a web-based application built using **Spring Boot
 |---------------|-------------|
 | ![Taxi07](screenshots/taxi07.png) | ![Taxi08](screenshots/taxi08.png) |
 
+|-----------|-------------|
+| ![Taxi01](screenshots/taxi9.png) | ![Taxi02](screenshots/taxi10.png) |
+
+
+|-------------|----------------------|
+| ![Taxi03](screenshots/taxi11.png) | ![Taxi04](screenshots/taxi12.png) |
+
+
+|-----------------|----------------|
+| ![Taxi05](screenshots/taxi13.png) | ![Taxi06](screenshots/taxi14.png) |
+
+
+|---------------|-------------|
+| ![Taxi07](screenshots/taxi15.png) | ![Taxi08](screenshots/taxi16.png) |
+
 ---
 
 ## 🔥 Features  
 
 ✅ **User Authentication** – Secure login using **Spring Security**.  
-✅ **Cab Booking** – Users can search for and book rides instantly.  
+✅ **Cab Booking** – Users can search and book rides instantly.  
 ✅ **Admin Dashboard** – Manage users, bookings, and payments.  
 ✅ **Payment Integration** *(Future Scope)* – Secure online transactions.  
 ✅ **Email Notifications** *(Future Scope)* – Booking confirmations via email.  
@@ -58,7 +65,7 @@ The **Taxi Booking System** is a web-based application built using **Spring Boot
 
 1️⃣ **Clone the Repository**  
 ```bash
-git clone https://github.com/nahedpathan/TaxiBooking.git
+git clone https://github.com/nahedapathan/taxi-booking-system.git
 ```
 
 2️⃣ **Navigate to the Project Directory**  
@@ -111,16 +118,7 @@ This project is **open-source** under the **MIT License**. Feel free to contribu
 
 💡 Want to improve this project? Fork it and create a pull request!  
 
----
-
-🔗 **GitHub Repository:** [Taxi Booking System]
-
-📩 **Contact:** If you have any queries, feel free to reach out!  
-
----
 
 ### 🎯 Developed by **Naheda Pathan** 🚀
-```
 
----
 
